@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.scribelog.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_apps"
+        android:name="com.scribelog.ui.apps.AppManagerFragment"
+        android:label="@string/title_apps" />
+
+    <fragment
+        android:id="@+id/navigation_services"
+        android:name="com.scribelog.ui.services.ServiceMonitorFragment"
+        android:label="@string/title_services" />
+
+    <fragment
+        android:id="@+id/navigation_logs"
+        android:name="com.scribelog.ui.logs.LogViewerFragment"
+        android:label="@string/title_logs" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.scribelog.ui.settings.SettingsFragment"
+        android:label="@string/title_settings" />
+
+</navigation> 
